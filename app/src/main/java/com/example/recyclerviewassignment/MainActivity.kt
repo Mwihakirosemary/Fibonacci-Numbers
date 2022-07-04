@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         var x = 100
         var m1 = 0
         var m2 = 1
+        print("First $x terms: ")
 
         var numberList = mutableListOf<Int>()
         for (i in 1..x){
